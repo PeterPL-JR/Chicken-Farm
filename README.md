@@ -1,7 +1,7 @@
 # Chicken Farm
-Welcome to my clicker game "Chicken Farm"!
-This is a simple game I created during lesson at school.
-You can play it on the game website:
+Welcome to my clicker game "Chicken Farm"!<br />
+This is a simple game I created during lesson at school.<br />
+You can play it on the game website:<br />
 https://chicken-farm.000webhostapp.com/
  
 The game is really silimar to traditional clicker. <br />
