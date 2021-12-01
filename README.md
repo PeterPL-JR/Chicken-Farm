@@ -9,7 +9,7 @@ The game is really similar to traditional clicker. <br />
 Rules of it are really simple:
 * You should pick eggs laying by chicken.
 * If you take an egg, counter increases.
-* You can upgrade your chicken to extend your chances to new eggs
+* You can upgrade your chicken to extend your chances to new eggs <br /><br />
 * You have small chance to get a golden eggs, you can use them to buy new chicken
 * Speed of new eggs generation increase after each upgrade
 * So far game doesn't have a target to do, so you may make you target up :)
