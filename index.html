@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Chicken Farm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="chicken1.png">
+</head>
+<body>
+<div id="page-content">
+    <div id="logo">
+        <h1>Chicken Farm</h1>
+    </div>
+    <div id="container">
+        <br><br>
+        <div id="eggs">
+            <p id="eggsLabel">
+                <img src="egg.png"> Eggs: <span style="color: #957342;">0</span>
+            </p>
+        </div>
+        <div id="goldenEggs">
+            <p id="goldenEggsLabel">
+                <img src="goldenEgg.png"> Golden Eggs: <span style="color: #957342;">0</span>
+            </p>
+        </div>
+        <div id="houses">
+            
+            <div class="house">
+                <div id="chicken1">
+                    <img src="chicken1.png">
+                </div>
+                <div class="egg" id="egg1"></div>
+            </div>
+            <div class="house">
+                <div id="chicken2" style="visibility: hidden;">
+                    <img src="chicken1.png">
+                </div>
+                <div class="egg" id="egg2"></div>
+            </div>
+            <div class="house">
+                <div id="chicken3" style="visibility: hidden;">
+                    <img src="chicken1.png">
+                </div>
+                <div class="egg" id="egg3"></div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div id="buttons">
+            <div id="buttonDiv1"><input class="button" type="button" value="Upgrade" id="button1"></div>
+            <div id="buttonDiv2"><input class="button" type="button" value="Buy" id="button2"></div>
+            <div id="buttonDiv3"><input class="button" type="button" value="Buy" id="button3"></div>
+            
+            <p class="level" id="level1">Level: 1</p>
+            <p class="level" id="level2"></p>
+            <p class="level" id="level3"></p>
+        </div>
+    </div>
+    <script src="chicken.js"></script>
+</div>
+</body>
+</html>

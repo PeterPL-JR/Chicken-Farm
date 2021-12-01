@@ -1,0 +1,182 @@
+/*No wstyd na 150! - 18 listopada 2021*/
+/*git init - Stworzenie Git*/
+/*git status - Status Git*/
+/*git add <nazwa> - Dodawanie Pliku*/
+/*git add * - Dodaj Wszystkie*/
+/*git commit -m <wiadomość> - Zapisywanie*/
+/*git config --global user.name <email>*/
+/*git log - Pokazuje Wszytskie Zmiany*/
+/*git push - Opublikowywanie na Github*/
+
+body {
+    font-family: 'Pixel';
+    background-color: #312617;
+}
+
+@font-face {
+    font-family: 'Pixel';
+    src: url('font-pixel.ttf');
+}
+
+div#page-content {
+    width: 950px;
+    height: 670px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#logo {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    outline: dashed #957342 12px;
+    z-index: 10;
+}
+div#logo > h1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+    outline: solid #5c4423 12px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+
+    font-size: 66px;
+    color: #745832;
+    text-shadow: 2px 2px #55442d;
+    background: linear-gradient(to bottom left, #251c0b, #5c4423);
+}
+
+div#container {
+    background-color: #3f311d;
+    outline: solid #523f24 15px;
+    width: 90%;
+    height: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#eggs, div#goldenEggs {
+    
+    font-weight: bold;
+    color: #705938;
+    background: linear-gradient(to bottom left, #251c0b, #47351b);
+
+    outline: dashed #6e5633 6px;
+
+    margin-left: 170px;
+    margin-right: 170px;
+
+    text-align: center;
+    font-size: 30px;
+}
+
+div#eggs p, div#goldenEggs p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    outline: solid #574325 6px;
+}
+
+div#eggs img, div#goldenEggs img {
+    width: 30px;
+}
+
+.house {
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    outline: solid #644e2e 6px;
+    background-color: #3b2f1d;
+}
+
+.house div {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.house div img {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    top: 20px;
+}
+
+#houses {
+    margin-top: 60px;
+    width: 80%;
+    height: 220px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.egg {
+    margin-top: 10px;
+    width: 64px !important;
+    position: relative;
+}
+.goldenEgg {
+    margin-top: 10px;
+    width: 64px !important;
+    position: relative;
+}
+
+#buttons {
+    width: 80%;
+    margin-top: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.level {
+    float: left;
+    width: 30%;
+
+    text-align: center;
+    margin-left: 3%;
+
+    color: #957342;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+input[type="button"] {
+    border: solid #765e39 5px;
+    background-color: #574325;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font: bold 20px 'Pixel';
+    color: #8c714a;
+    cursor: pointer;
+}
+
+#buttonDiv1, #buttonDiv2, #buttonDiv3 {
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+}
+
+input[type="button"]:hover {
+    background-color: #47351b;
+}
+input[type="button"]:active {
+    color: #644e2e;
+    border-color: #644e2e;
+}
+
+#buttons input {
+    visibility: visible;
+    width: 100%;
+}
+
+.price {
+    position: absolute;
+    width: 28px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+}
