@@ -2,7 +2,7 @@
 $ Welcome to my clicker game "Chicken Farm"!<br />
 $ This is a simple game I created during lesson at school.<br />
 $ You can play it on the game website:<br />
-https://chicken-farm.000webhostapp.com/
+  https://chicken-farm.000webhostapp.com/
 
 ## Rules of Game
 The game is really similar to traditional clicker. <br />
@@ -17,4 +17,4 @@ Rules of it are really simple:
 ## Follow me
 $ If you've played this game and like it, follow me here and like a project. <br />
 $ When you know polish you can also visite my Youtube channel: <br />
-https://www.youtube.com/channel/UCq_-DkHem2u8RXZGuRxLgMA/videos
+  https://www.youtube.com/channel/UCq_-DkHem2u8RXZGuRxLgMA/videos
