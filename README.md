@@ -4,7 +4,7 @@ This is a simple game I created during lesson at school.
 You can play it on the game website:
 https://chicken-farm.000webhostapp.com/
  
-The game is really silimar to traditional clicker._
+The game is really silimar to traditional clicker.__
 Rules of it are really simple:
 * You should pick eggs laying by chicken.
 * If you take an egg, counter increases.
