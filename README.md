@@ -15,6 +15,6 @@ Rules of it are really simple:
 * So far game doesn't have a target to do, so you may make you target up :)
 
 ## Follow me
-If you've played this game and like it, follow me here and like a project.
-When you know polish you can also visite my Youtube channel:
+If you've played this game and like it, follow me here and like a project. <br />
+When you know polish you can also visite my Youtube channel: <br />
 https://www.youtube.com/channel/UCq_-DkHem2u8RXZGuRxLgMA/videos
