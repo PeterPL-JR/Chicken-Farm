@@ -16,7 +16,9 @@ var goldenLabel = document.getElementById("goldenEggsLabel");
 // Counters
 var eggs = 0;
 var golden = 0;
+const chickenPrice = 5;
 
+const pickSound = new Audio("pickEgg.mp3");
 const eggImage = "<img src='egg.png'>";
 const goldenEggImage = "<img src='goldenEgg.png'>";
 
@@ -72,18 +74,15 @@ function refreshEggs() {
 function pickEgg(index) {
     if(eggVisible[index] == "egg") {
         eggs++;
-        refreshEggs();
-        
-        egg[index].innerHTML = "";
-        eggVisible[index] = "hidden";
+        pickSound.play();
 
     } else if(eggVisible[index] == "golden") {
         golden++;
-        refreshEggs();
-
-        egg[index].innerHTML = "";
-        eggVisible[index] = "hidden";
     }
+
+    eggVisible[index] = "hidden";
+    egg[index].innerHTML = "";
+    refreshEggs();
 }
 
 egg[0].onclick = function() {
@@ -138,7 +137,7 @@ function setCost(index, active) {
         document.getElementById("level" + index).innerHTML = string;
 
     } else if(status == "buy") {
-        var priceStr = (golden < 3) ? "<span style='color: #695435;'>3</span>" : "3";
+        var priceStr = (golden < chickenPrice) ? "<span style='color: #695435;'>" + chickenPrice + "</span>" : chickenPrice + "";
 
         var string = (active) ? "Price: " + priceStr + " <img src='goldenEgg.png' class='price'>" : "";
         document.getElementById("level" + index).innerHTML = string;
@@ -201,7 +200,7 @@ function buy(index) {
     else if(index == 1) button = button2;
     else if(index == 2) button = button3;
 
-    if(golden >= 3) {
+    if(golden >= chickenPrice) {
         buttonStatus[index] = "upgrade";
         button.value = "Upgrade";
         document.getElementById("chicken" + (index + 1)).style.setProperty("visibility", "visible");
@@ -209,7 +208,7 @@ function buy(index) {
         setInterval("newEgg(" + (index + 1) + ")", eggSpeed[1]);
         setInterval("rotate(" + (index + 1) + ")", 1000);
 
-        golden -= 3;
+        golden -= chickenPrice;
         refreshEggs();
     }
 }
